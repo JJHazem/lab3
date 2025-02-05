@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-repo.git'
+                git 'https://github.com/JJHazem/lab3.git'
             }
         }
         stage('Build Docker Image') {
